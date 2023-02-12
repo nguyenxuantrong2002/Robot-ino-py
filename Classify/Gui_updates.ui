@@ -1,0 +1,2601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QR_Code</class>
+ <widget class="QMainWindow" name="QR_Code">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1307</width>
+    <height>745</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(236, 236, 236)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255, 255, 255)</string>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="Screen_Home">
+       <widget class="QFrame" name="frame_2">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>550</y>
+          <width>221</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(111, 189, 254)</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="count_type_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>62</y>
+           <width>47</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type3</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="sum_oder">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>100</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>42</y>
+           <width>47</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type2</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_count_type_3">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>70</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_count_type_1">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_count_type_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>40</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>12</y>
+           <width>47</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>92</y>
+           <width>47</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Total</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>251</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(35, 153, 186)</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QPushButton" name="button_start">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(0, 170, 0)</string>
+         </property>
+         <property name="text">
+          <string>START</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="button_stop">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(227, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>STOP</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="button_exit">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgb(0, 0, 255)</string>
+         </property>
+         <property name="text">
+          <string>EXIT</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_SQL">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 189, 34)</string>
+         </property>
+         <property name="text">
+          <string>SQL</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_datain">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>60</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 0)</string>
+         </property>
+         <property name="text">
+          <string>Data</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_manual">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>100</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 189, 34)</string>
+         </property>
+         <property name="text">
+          <string>Manual</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="Camera">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>130</y>
+          <width>331</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="picture">
+        <property name="geometry">
+         <rect>
+          <x>920</x>
+          <y>130</y>
+          <width>311</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame">
+        <property name="geometry">
+         <rect>
+          <x>810</x>
+          <y>550</y>
+          <width>421</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(136, 138, 133)</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <widget class="QLabel" name="customer_phone">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>80</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Phone</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_customer_phone">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>80</y>
+           <width>171</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_customer_address">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>50</y>
+           <width>311</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_customer_name">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>20</y>
+           <width>311</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="customer_address">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>50</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Address</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="customer_name_6">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QDateTimeEdit" name="date_time">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>570</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>110</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CAMERA</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>920</x>
+          <y>110</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>FRAME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Control_panel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>120</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CONTROL PANEL</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>111</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>icon/1200px-Logo-hcmut.svg.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>10</y>
+          <width>521</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(248, 190, 11)</string>
+        </property>
+        <property name="text">
+         <string>ĐỀ TÀI:
+HỆ THỐNG PHÂN LOẠI SẢN PHẨM THEO MÃ QR</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>0</y>
+          <width>381</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>TRƯỜNG ĐẠI HỌC BÁCH KHOA TP. HỒ CHÍ MINH
+KHOA ĐIỆN - ĐIỆN TỬ
+BỘ MÔN ĐIỀU KHIỂN TỰ ĐỘNG
+GVHD: PHAN NGUYỄN PHỤC QUỐC
+SVTH: VÕ QUỐC HUY
+LỚP: DD17TD2 </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>140</y>
+          <width>321</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(79, 250, 139);</string>
+        </property>
+        <widget class="QLineEdit" name="z_calib">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>110</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="x_calib">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>50</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_manual_calib">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>60</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>CALIB</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon_home.png</normaloff>icon_home.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="y_calib">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>80</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>50</y>
+           <width>21</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>80</y>
+           <width>21</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>110</y>
+           <width>21</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Z</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>241</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Nhập tọa độ hiện tại của tay gắp</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>120</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>MENU CALIB</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>340</y>
+          <width>571</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(148, 209, 236)</string>
+        </property>
+        <widget class="QLabel" name="light_status">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>icon/icon_dendo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_status">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>421</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>320</y>
+          <width>141</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>STATUS OF ROBOT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>450</y>
+          <width>571</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(148, 209, 236);</string>
+        </property>
+        <widget class="QLineEdit" name="x_current">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>10</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="y_current">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>10</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="z_current">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>10</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th1_current">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>50</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th2_current">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>50</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th3_current">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>50</y>
+           <width>113</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>16</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>10</y>
+           <width>16</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>10</y>
+           <width>16</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Z</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>31</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TH1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>50</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TH2</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>50</y>
+           <width>31</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TH3</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>430</y>
+          <width>151</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>POSITION OF GRIPPER</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>0</y>
+          <width>111</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>icon/logo_tudong.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_6" native="true">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>579</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(117, 238, 160);</string>
+        </property>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>16</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="x_object">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>10</y>
+           <width>121</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>16</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="y_object">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>40</y>
+           <width>121</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>560</y>
+          <width>211</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>POSITION OF OBJECT ON BELT</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Screen_SQL">
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>10</y>
+          <width>291</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:600;&quot;&gt;THÔNG TIN KHÁCH HÀNG&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Button_home_SQL">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>630</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>13</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/icon_home.png</normaloff>icon/icon_home.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>70</y>
+          <width>761</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+         </font>
+        </property>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>57</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Mã Vùng</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>ID</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Họ Tên</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>SDT</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Địa chỉ</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Đơn giá</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Screen_DataIN">
+       <widget class="QPushButton" name="Button_home_Data">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>630</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/icon_home.png</normaloff>icon/icon_home.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Button_refresh">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>570</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Refresh</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/refresh.png</normaloff>icon/refresh.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>19</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>DỮ LIỆU VÀO</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="table_dataIN">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>70</y>
+          <width>521</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+         </font>
+        </property>
+        <column>
+         <property name="text">
+          <string>Ngày xuất</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>ID</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nhà phân phối</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>240</y>
+          <width>481</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(248, 181, 181);</string>
+        </property>
+        <widget class="QFrame" name="frame_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>180</y>
+           <width>481</width>
+           <height>131</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(117, 238, 160);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <widget class="QLabel" name="customer_phone_3">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Phone</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txt_phone_dataIN">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>80</y>
+            <width>171</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txt_address_dataIN">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>50</y>
+            <width>371</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txt_name_dataIN">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>371</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="customer_address_3">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>61</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Address</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="customer_name_8">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>51</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Name</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLineEdit" name="txt_dataIN_ID">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>70</y>
+           <width>191</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>20</y>
+           <width>331</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>13</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TÌM KIẾM THÔNG TIN KHÁCH HÀNG</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Button_findID">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>110</y>
+           <width>89</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>SEARCH</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/pngegg.png</normaloff>icon/pngegg.png</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>40</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>(Nhập ID )</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Screen_Manual">
+       <widget class="QLabel" name="Camera_manual">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>40</y>
+          <width>331</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>110</y>
+          <width>371</width>
+          <height>381</height>
+         </rect>
+        </property>
+        <widget class="QPushButton" name="btn_hand_E">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>E-</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/release.png</normaloff>icon/release.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof3_D">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>D-</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/left.png</normaloff>icon/left.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof2_C">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>150</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>C-</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/up.png</normaloff>icon/up.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof1_B">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>220</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>B-</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/right1.png</normaloff>icon/right1.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_base_A">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>300</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>A-</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/left.png</normaloff>icon/left.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th5">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>20</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th4">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>80</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th3">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>150</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>220</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="th1">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>300</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_handE">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>E+</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/pick.png</normaloff>icon/pick.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_baseA">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>300</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>A+</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/right.png</normaloff>icon/right.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof1B">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>220</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>B+</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Control_robot/LEFT1.png</normaloff>../Control_robot/LEFT1.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof2C">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>150</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>C+</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/down.png</normaloff>icon/down.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_dof3D">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>80</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Cambria</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>D+</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icon/right.png</normaloff>icon/right.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="Button_home_manual">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>13</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icon/icon_home.png</normaloff>icon/icon_home.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_4">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>500</y>
+          <width>191</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(111, 189, 254)</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="count_type_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>62</y>
+           <width>47</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type3</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_total_manual">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>100</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>42</y>
+           <width>47</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type2</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_type3_manual">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>70</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_type1_manual">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_type2_manual">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>40</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>12</y>
+           <width>47</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Type1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="count_type_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>92</y>
+           <width>47</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Total</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_5">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>500</y>
+          <width>481</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(136, 138, 133)</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <widget class="QLabel" name="customer_phone_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>80</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Phone</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_sdt_manual">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>80</y>
+           <width>171</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_address_manual">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>50</y>
+           <width>371</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="txt_name_manual">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>20</y>
+           <width>371</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="customer_address_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>50</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Address</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="customer_name_7">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>20</y>
+           <width>51</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="Frame_manual">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>40</y>
+          <width>331</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>70</y>
+          <width>181</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>MANUAL MODE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>20</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>FRAME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>20</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CAMERA</string>
+        </property>
+       </widget>
+       <zorder>widget</zorder>
+       <zorder>Camera_manual</zorder>
+       <zorder>Button_home_manual</zorder>
+       <zorder>frame_4</zorder>
+       <zorder>frame_5</zorder>
+       <zorder>Frame_manual</zorder>
+       <zorder>label_7</zorder>
+       <zorder>label_24</zorder>
+       <zorder>label_25</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1307</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRectangular">
+   <property name="text">
+    <string>Rectangular</string>
+   </property>
+  </action>
+  <action name="actionFull_Screen">
+   <property name="text">
+    <string>Full Screen</string>
+   </property>
+  </action>
+  <action name="actionRectangular_2">
+   <property name="text">
+    <string>Rectangular</string>
+   </property>
+  </action>
+  <action name="actionDelay">
+   <property name="text">
+    <string>Delay</string>
+   </property>
+  </action>
+  <action name="actionDelay_2">
+   <property name="text">
+    <string>Delay</string>
+   </property>
+  </action>
+  <action name="actionDelay_3">
+   <property name="text">
+    <string>Delay</string>
+   </property>
+  </action>
+  <action name="actionNo_Delay">
+   <property name="text">
+    <string>No Delay</string>
+   </property>
+  </action>
+  <action name="action5_seconds">
+   <property name="text">
+    <string>5 seconds</string>
+   </property>
+  </action>
+  <action name="action10_seconds">
+   <property name="text">
+    <string>10 seconds</string>
+   </property>
+  </action>
+  <action name="action20_seconds">
+   <property name="text">
+    <string>20 seconds</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
